@@ -20,5 +20,6 @@ from zhengyiming import functions
 urlpatterns = [
     path('', functions.home),
     path('count/', functions.count),
+    path('about/', functions.about),
     path('admin/', admin.site.urls),
 ]

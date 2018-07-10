@@ -20,3 +20,6 @@ def count(ruquest):
 
 
     return render(ruquest, 'count.html', {'count':total_count, 'sortedict':sorted_dict})
+
+def about(ruquest):
+    return render(ruquest, 'about.html')
